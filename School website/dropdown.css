@@ -1,0 +1,61 @@
+
+  
+  <style>
+    .navbar {
+      overflow: hidden;
+    }
+
+
+    .dropdown {
+      float: right;
+      overflow: hidden;
+    }
+    .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">Product</button>
+    <div class="dropdown-content">
+      <a href="#">Option 1</a>
+      <a href="#">Option 2</a>
+      <a href="#">Option 3</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 2</button>
+    <div class="dropdown-content">
+      <a href="#">Option A</a>
+      <a href="#">Option B</a>
+      <a href="#">Option C</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
